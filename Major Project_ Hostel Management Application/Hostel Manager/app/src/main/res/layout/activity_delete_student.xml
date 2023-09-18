@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/skin"
+        tools:layout_editor_absoluteX="-38dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="Hostel Management App"
+            android:textColor="#0000FF"
+            android:textSize="30dp"></TextView>
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="Made by Soham Ray"
+            android:textColor="@color/teal_700"
+            android:textSize="20dp"></TextView>
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_below="@+id/txt2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:src="@mipmap/delete">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="400dp"
+            android:text="Delete Student Details"
+            android:textStyle="bold"
+            android:textColor="#FF00FF"
+            android:textAlignment="center"
+            android:textSize="23dp"></TextView>
+
+        <EditText
+            android:id="@+id/ed1"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/txt2"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="440dp"
+            android:hint="Enter Student Roll Number "
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="20dp"></EditText>
+
+
+        <Button
+            android:id="@+id/btdelete"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img1"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="580dp"
+            android:backgroundTint="#000099"
+            android:text="DELETE"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25dp"></Button>
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

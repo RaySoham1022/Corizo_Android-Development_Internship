@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/skin"
+        tools:layout_editor_absoluteX="-38dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="Hostel Management App"
+            android:textColor="#0000FF"
+            android:textSize="30dp"></TextView>
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="Made by Soham Ray"
+            android:textColor="@color/teal_700"
+            android:textSize="20dp"></TextView>
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="400dp"
+            android:layout_height="250dp"
+            android:layout_below="@+id/txt2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/hostelinnerpage">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="350dp"
+            android:text="Application Menu"
+            android:textStyle="bold"
+            android:textColor="#FF00FF"
+            android:textAlignment="center"
+            android:textSize="23dp"></TextView>
+
+        <Button
+            android:id="@+id/btadddetails"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img1"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="390dp"
+            android:backgroundTint="#000099"
+            android:text="Add Student Details"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="23dp"></Button>
+
+        <Button
+            android:id="@+id/bteditdetails"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img1"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="450dp"
+            android:backgroundTint="#000099"
+            android:text="Edit Student Details"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="23dp"></Button>
+        <Button
+            android:id="@+id/btgetdetails"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img1"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="510dp"
+            android:backgroundTint="#000099"
+            android:text="Get Student Details"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="23dp"></Button>
+
+        <Button
+            android:id="@+id/btdeletedetails"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img1"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="570dp"
+            android:backgroundTint="#000099"
+            android:text="Delete Student Details"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="21dp"></Button>
+
+        <Button
+            android:id="@+id/btalldetails"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img1"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="630dp"
+            android:backgroundTint="#FF0000"
+            android:text="All Accomodations "
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25dp"></Button>
+
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
